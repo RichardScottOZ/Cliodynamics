@@ -9,3 +9,7 @@ Turchin, P., Korotayev, A., 2020. The 2010 Structural-Demographic Forecast for t
 
 License
 CC-By Attribution 4.0 International
+
+## Plot from Paper Data
+https://github.com/RichardScottOZ/Cliodynamics/blob/main/Turchin_Korotayev_R/Political_Stress_indicator.png
+
