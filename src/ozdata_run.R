@@ -72,7 +72,7 @@ write.csv(as.data.frame(employed2534_yearly),"data/ausmacrodata_employed2534.csv
 #weekly earnings
 #http://ausmacrodata.org/series.php?id=epftateaweaob
 earnings <- get_ausmacrodata('epftateaweaob')
-periodicity(earnings)
+#periodicity(earnings)
 #str(index(earnings))
 earningsxts <- xts(earnings, date_decimal(index(earnings)))
 earningsxts <- to.period(earningsxts, period="years")
@@ -81,7 +81,13 @@ write.csv(as.data.frame(earnings_yearly),"data/ausmacrodata_earnings.csv")
 
 #Earnings public sector
 #http://ausmacrodata.org/series.php?id=erptepsawepsaob
-earnings <- get_ausmacrodata('erptepsawepsaob')
+earnings_public <- get_ausmacrodata('erptepsawepsaob')
+#periodicity(earnings_public)
+#str(index(earnings))
+earnings_publicxts <- xts(earnings_public, date_decimal(index(earnings_public)))
+earnings_publicxts <- to.period(earnings_publicxts, period="years")
+earnings_public_yearly <- to.yearly(earnings_publicxts)
+write.csv(as.data.frame(earnings_public_yearly),"data/ausmacrodata_earnings_public.csv")
 
 
 
