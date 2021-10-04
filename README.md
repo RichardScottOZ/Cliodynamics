@@ -39,6 +39,13 @@ Find repos of people that have done the hard work of data mining government webs
 - Percent of population aged 20-29: ausmacrodata employed 20-24 and ausmacrodata employed 25-34
 - National Debt scaled by GDP: ausmacrodata Current Account and ausmacrodata Real GDP
 - Distrust [percent responding negatively to the government]
+	- https://www.aph.gov.au/~/~/link.aspx?_id=1713CA0133C845D8B54945046F5C7B8B
+	- https://australianelectionstudy.org/wp-content/uploads/Trends-in-Australian-Political-Opinion-1987-2019.pdf
+	- https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/231VJS&version=2.0
+		- https://australianelectionstudy.org/interactive-charts/
+	
 
-
+https://www.dese.gov.au/higher-education-statistics/student-data/selected-higher-education-statistics-time-series-data
+https://www.dese.gov.au/higher-education-statistics/student-data/selected-higher-education-statistics-2013-student-data
+ Higher Education Students by Gender and Broad Field of Study, 1983-2000 ...
 
