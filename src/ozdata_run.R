@@ -1,5 +1,7 @@
 
 library(ozdata)
+library(lubridate)
+library(xts)
 
 ###get_ausmacrodata()
 #The `ausmacrodata.org` contains macroeconomic data from the ABS and RBA. Every ausmacrodata series have unique ID and can be loaded either by using full URL or only series ID. The first argument is either full URL or ID. The subsequent argument specifies in what format data should be returned: `tibble`, `ts` or `xts`, whereas `ts` is a default format for quarterly data and `xts` for daily data.
@@ -8,7 +10,6 @@ library(ozdata)
 # 'jvnswjvstoq' is a unique ID of this series
 dat <- get_ausmacrodata('jvnswjvstoq')
 #plot the series
-library(xts)
 class(dat)
 plot(dat)
 
@@ -67,6 +68,21 @@ periodicity(employed2534)
 employed2534xts <- as.xts(employed2534)
 employed2534_yearly <- to.yearly(employed2534xts)
 write.csv(as.data.frame(employed2534_yearly),"data/ausmacrodata_employed2534.csv")
+
+#weekly earnings
+#http://ausmacrodata.org/series.php?id=epftateaweaob
+earnings <- get_ausmacrodata('epftateaweaob')
+periodicity(earnings)
+#str(index(earnings))
+earningsxts <- xts(earnings, date_decimal(index(earnings)))
+earningsxts <- to.period(earningsxts, period="years")
+earnings_yearly <- to.yearly(earningsxts)
+write.csv(as.data.frame(earnings_yearly),"data/ausmacrodata_earnings.csv")
+
+#Earnings public sector
+#http://ausmacrodata.org/series.php?id=erptepsawepsaob
+earnings <- get_ausmacrodata('erptepsawepsaob')
+
 
 
 
