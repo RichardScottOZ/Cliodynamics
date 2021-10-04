@@ -35,6 +35,22 @@ currentaccount<- as.xts(currentaccount)
 currentaccount_yearly <- to.yearly(currentaccount)
 write.csv(as.data.frame(currentaccount_yearly),"data/ausmacrodata_currentaccount.csv")
 
+#employed total - persons
+#http://ausmacrodata.org/series.php?id=etpyossam
+#etpyosom
+employed <- get_ausmacrodata('etpyosom')
+periodicity(employed)
+employedxts <- as.xts(employed)
+employed_yearly <- to.yearly(employedxts)
+write.csv(as.data.frame(employed_yearly),"data/ausmacrodata_employed.csv")
+
+#employment to population ratio
+#http://ausmacrodata.org/series.php?id=eprpyosom2
+employed_ratio <- get_ausmacrodata('eprpyosom2')
+periodicity(employed_ratio)
+employed_ratioxts <- as.xts(employed_ratio)
+employed_ratio_yearly <- to.yearly(employed_ratioxts)
+write.csv(as.data.frame(employed_ratio_yearly),"data/ausmacrodata_employed_ratio.csv")
 
 
 
