@@ -35,7 +35,7 @@ Find repos of people that have done the hard work of data mining government webs
 - Production Wage
 - Unskilled Wage
 - GDP per capital: ausmacrodata Real GDP and ausmacrodata Estimated Resident Population
-- Urbanization
+- Urbanization - World Bank: https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS?locations=AU
 - Percent of population aged 20-29: ausmacrodata employed 20-24 and ausmacrodata employed 25-34
 - National Debt scaled by GDP: ausmacrodata Current Account and ausmacrodata Real GDP
 - Distrust [percent responding negatively to the government]
