@@ -34,11 +34,11 @@ Find repos of people that have done the hard work of data mining government webs
 ### Need Data
 - Production Wage
 - Unskilled Wage
-- GDP per capital [ausmacrodata]
+- GDP per capital: ausmacrodata Real GDP and ausmacrodata Estimated Resident Population
 - Urbanization
-- Percent of population aged 20-20
-- National Debt scaled by GDP
-- Distrust - percent responding negatively to the government
+- Percent of population aged 20-29
+- National Debt scaled by GDP: ausmacrodata Current Account and ausmacrodata Real GDP
+- Distrust [percent responding negatively to the government]
 
 
 
