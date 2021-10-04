@@ -45,7 +45,7 @@ Find repos of people that have done the hard work of data mining government webs
 	- https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/231VJS&version=2.0
 		- https://australianelectionstudy.org/interactive-charts/
 	
-### Higher Educaton
+### Higher Education
 - https://www.dese.gov.au/higher-education-statistics/student-data/selected-higher-education-statistics-time-series-data
 - https://www.dese.gov.au/higher-education-statistics/student-data/selected-higher-education-statistics-2013-student-data
 - Higher Education Students by Gender and Broad Field of Study, 1983-2000 ...
