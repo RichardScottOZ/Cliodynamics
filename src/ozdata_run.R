@@ -52,5 +52,22 @@ employed_ratioxts <- as.xts(employed_ratio)
 employed_ratio_yearly <- to.yearly(employed_ratioxts)
 write.csv(as.data.frame(employed_ratio_yearly),"data/ausmacrodata_employed_ratio.csv")
 
+#employed total 20-24 years
+#http://ausmacrodata.org/series.php?id=etp2yupasom
+employed2024 <- get_ausmacrodata('etp2yupasom')
+periodicity(employed2024)
+employed2024xts <- as.xts(employed2024)
+employed2024_yearly <- to.yearly(employed2024xts)
+write.csv(as.data.frame(employed2024_yearly),"data/ausmacrodata_employed2024.csv")
+
+#employed total 25-34 years
+#http://ausmacrodata.org/series.php?id=etp2yupasom
+employed2534 <- get_ausmacrodata('etp25yupasom')
+periodicity(employed2534)
+employed2534xts <- as.xts(employed2534)
+employed2534_yearly <- to.yearly(employed2534xts)
+write.csv(as.data.frame(employed2024_yearly),"data/ausmacrodata_employed2534.csv")
+
+
 
 
