@@ -15,6 +15,7 @@ CC-By Attribution 4.0 International
 
 ## Data Sources
 - Cross National Time Series - https://www.cntsdata.com/
+- Production Workers - https://www.measuringworth.com/datasets/uswage/
 
 
 ## Plot from Paper Data
