@@ -1,0 +1,30 @@
+
+library(ozdata)
+
+###get_ausmacrodata()
+#The `ausmacrodata.org` contains macroeconomic data from the ABS and RBA. Every ausmacrodata series have unique ID and can be loaded either by using full URL or only series ID. The first argument is either full URL or ID. The subsequent argument specifies in what format data should be returned: `tibble`, `ts` or `xts`, whereas `ts` is a default format for quarterly data and `xts` for daily data.
+
+#Load the job vacancies data in New South Wales between 1983-2017
+# 'jvnswjvstoq' is a unique ID of this series
+dat <- get_ausmacrodata('jvnswjvstoq')
+#plot the series
+library(xts)
+class(dat)
+plot(dat)
+
+##Real gdp
+realgdp <- get_ausmacrodata('gdpcknaasaq')
+periodicity(realgdp)
+realgdpxts<- as.xts(realgdp)
+realgdp_yearly <- to.yearly(realgdp)
+write.csv(as.data.frame(estrespop_yearly),"data/ausmacrodata_realgdp.csv")
+
+#estimated resident population
+estrestpop <- get_ausmacrodata('erpapcsaoq')
+periodicity(estrestpop)
+estrestpopxts<- as.xts(estrestpop)
+estrespop_yearly <- to.yearly(estrestpopxts)
+write.csv(as.data.frame(estrespop_yearly),"data/ausmacrodata_estrespop.csv")
+
+
+

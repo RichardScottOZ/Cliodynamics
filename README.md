@@ -9,9 +9,13 @@ Turchin, P., Korotayev, A., 2020. The 2010 Structural-Demographic Forecast for t
 
 - Preprint : https://osf.io/preprints/socarxiv/7ahqn/
 - Supplementary : https://osf.io/7ymnw/
-
 License
 CC-By Attribution 4.0 International
+
+
+## Data Sources
+- Cross National Time Serieshttps://www.cntsdata.com/
+
 
 ## Plot from Paper Data
 ### USA Political Stress Indicator prediction [data up to 2011]
