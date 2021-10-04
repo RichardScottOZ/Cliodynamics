@@ -23,3 +23,18 @@ CC-By Attribution 4.0 International
 - ABS
 - ausmacrostrat.org
 - others
+
+### Approach
+Find repos of people that have done the hard work of data mining government websites
+
+### Need Data
+- Production Wage
+- Unskilled Wage
+- GDP per capital
+- Urbanization
+- Percent of populationa aged 20-20
+- National Debt scaled by GDP
+- Distrust - percent responding negatively to the government
+
+
+
