@@ -14,7 +14,7 @@ CC-By Attribution 4.0 International
 
 
 ## Data Sources
-- Cross National Time Serieshttps://www.cntsdata.com/
+- Cross National Time Series - https://www.cntsdata.com/
 
 
 ## Plot from Paper Data
@@ -25,7 +25,7 @@ CC-By Attribution 4.0 International
 ## Australia
 ### Aim to replicate this from Australian Data Sources
 - ABS
-- ausmacrostrat.org
+- ausmacrostrat.org : http://ausmacrodata.org/categories.php
 - others
 
 ### Approach
@@ -36,7 +36,7 @@ Find repos of people that have done the hard work of data mining government webs
 - Unskilled Wage
 - GDP per capital: ausmacrodata Real GDP and ausmacrodata Estimated Resident Population
 - Urbanization
-- Percent of population aged 20-29
+- Percent of population aged 20-29: ausmacrodata employed 20-24 and ausmacrodata employed 25-34
 - National Debt scaled by GDP: ausmacrodata Current Account and ausmacrodata Real GDP
 - Distrust [percent responding negatively to the government]
 
