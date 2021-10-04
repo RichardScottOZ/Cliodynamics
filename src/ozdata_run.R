@@ -66,7 +66,7 @@ employed2534 <- get_ausmacrodata('etp25yupasom')
 periodicity(employed2534)
 employed2534xts <- as.xts(employed2534)
 employed2534_yearly <- to.yearly(employed2534xts)
-write.csv(as.data.frame(employed2024_yearly),"data/ausmacrodata_employed2534.csv")
+write.csv(as.data.frame(employed2534_yearly),"data/ausmacrodata_employed2534.csv")
 
 
 
