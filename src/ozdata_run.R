@@ -14,10 +14,11 @@ plot(dat)
 
 ##Real gdp
 realgdp <- get_ausmacrodata('gdpcknaasaq')
+realgdp
 periodicity(realgdp)
 realgdpxts<- as.xts(realgdp)
-realgdp_yearly <- to.yearly(realgdp)
-write.csv(as.data.frame(estrespop_yearly),"data/ausmacrodata_realgdp.csv")
+realgdp_yearly <- to.yearly(realgdpxts)
+write.csv(as.data.frame(realgdp_yearly),"data/ausmacrodata_realgdp.csv")
 
 #estimated resident population
 estrestpop <- get_ausmacrodata('erpapcsaoq')
@@ -25,6 +26,15 @@ periodicity(estrestpop)
 estrestpopxts<- as.xts(estrestpop)
 estrespop_yearly <- to.yearly(estrestpopxts)
 write.csv(as.data.frame(estrespop_yearly),"data/ausmacrodata_estrespop.csv")
+
+#current account
+#http://ausmacrodata.org/series.php?id=cabpsqoq
+currentaccount <- get_ausmacrodata('cabpsqoq')
+periodicity(currentaccount)
+currentaccount<- as.xts(currentaccount)
+currentaccount_yearly <- to.yearly(currentaccount)
+write.csv(as.data.frame(currentaccount_yearly),"data/ausmacrodata_currentaccount.csv")
+
 
 
 

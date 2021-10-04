@@ -34,9 +34,9 @@ Find repos of people that have done the hard work of data mining government webs
 ### Need Data
 - Production Wage
 - Unskilled Wage
-- GDP per capital
+- GDP per capital [ausmacrodata]
 - Urbanization
-- Percent of populationa aged 20-20
+- Percent of population aged 20-20
 - National Debt scaled by GDP
 - Distrust - percent responding negatively to the government
 
