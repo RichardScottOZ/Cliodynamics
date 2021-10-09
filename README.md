@@ -1,5 +1,5 @@
 # Cliodynamics
-Work and code associated with looking at some work by Turchin et al
+Work and code associated with looking at some research by Turchin et al
 - Turchin's website: https://peterturchin.com/cliodynamics/
 - Journal : http://escholarship.org/uc/irows_cliodynamics
 
