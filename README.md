@@ -53,12 +53,13 @@ Find repos of people that have done the hard work of data mining government webs
 
 ### References
 #### Minimum Wage
-https://www.measuringworth.com/datasets/auswages/auswagesources.php
-https://melbourneinstitute.unimelb.edu.au/assets/documents/hilda-bibliography/other-publications/2013/Bray_Reflections_on_Evolution_of_Minimum_Wage.pdf
-https://www.fwc.gov.au/waltzing-matilda-and-the-sunshine-harvester-factory/historical-material/australian-minimum-wage-since-1906
+- https://www.measuringworth.com/datasets/auswages/auswagesources.php
+- https://melbourneinstitute.unimelb.edu.au/assets/documents/hilda-bibliography/other-publications/2013/Bray_Reflections_on_Evolution_of_Minimum_Wage.pdf
+- https://www.fwc.gov.au/waltzing-matilda-and-the-sunshine-harvester-factory/historical-material/australian-minimum-wage-since-1906
 
 #### Economic History
-https://rse.anu.edu.au/research/centre-economic-history/source-papers-economic-history
+- https://github.com/MattCowgill/auseconhisthttps://rse.anu.edu.au/research/centre-economic-history/source-papers-economic-history
+- https://github.com/MattCowgill/auseconhist
 ### Distrust
 - https://dataverse.ada.edu.au/dataverse.xhtml?alias=australian-voter-study
 - data from each 3 year election cycle only
