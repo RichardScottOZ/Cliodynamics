@@ -50,7 +50,6 @@ Find repos of people that have done the hard work of data mining government webs
 - https://www.dese.gov.au/higher-education-statistics/student-data/selected-higher-education-statistics-2013-student-data
 - Higher Education Students by Gender and Broad Field of Study, 1983-2000 ...
 
-
 ### References
 #### Minimum Wage
 - https://www.measuringworth.com/datasets/auswages/auswagesources.php
@@ -60,6 +59,7 @@ Find repos of people that have done the hard work of data mining government webs
 #### Economic History
 - https://github.com/MattCowgill/auseconhisthttps://rse.anu.edu.au/research/centre-economic-history/source-papers-economic-history
 - https://github.com/MattCowgill/auseconhist
+
 ### Distrust
 - https://dataverse.ada.edu.au/dataverse.xhtml?alias=australian-voter-study
 - data from each 3 year election cycle only

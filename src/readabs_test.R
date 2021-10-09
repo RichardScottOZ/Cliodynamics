@@ -9,9 +9,12 @@ library(tidyverse)
 
 Sys.setenv(R_READABS_PATH = "C:/Users/rscott/OneDrive - OZ Minerals/Exploration2021/Cliodynamics/data")
 
+<<<<<<< HEAD
 #abs time series
 #https://www.abs.gov.au/websitedbs/D3310114.nsf/home/Time+Series+Directory+-+URL+formula+instructions+for+access+to+Time+Series+Metadata
 
+=======
+>>>>>>> 3b2a3089b320b89591f6fb0cdb1f464c84e2e100
 awe <- read_awe()
 #class(awe$date)
 
@@ -34,6 +37,7 @@ write.csv(as.data.frame(demography),"data/abs_demography.csv")
 
 empearn <- read_abs("6306.0")
 empearn <- download_abs_data_cube("6306.0")
+<<<<<<< HEAD
 
 yearbook <- read_abs("1301.0")
 yearbook <- download_abs_data_cube("1301.0")
@@ -44,3 +48,5 @@ labour <- read_abs("6202.0")
 write.csv(as.data.frame(labour),"data/abs_labour.csv")
 
 head(labour)
+=======
+>>>>>>> 3b2a3089b320b89591f6fb0cdb1f464c84e2e100
