@@ -15,6 +15,7 @@ CC-By Attribution 4.0 International
 
 ## Data Sources
 - Cross National Time Series - https://www.cntsdata.com/
+- Production Workers - https://www.measuringworth.com/datasets/uswage/
 
 
 ## Plot from Paper Data
@@ -35,7 +36,7 @@ Find repos of people that have done the hard work of data mining government webs
 - Production Wage
 - Unskilled Wage
 - GDP per capital: ausmacrodata Real GDP and ausmacrodata Estimated Resident Population
-- Urbanization
+- Urbanization - World Bank: https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS?locations=AU
 - Percent of population aged 20-29: ausmacrodata employed 20-24 and ausmacrodata employed 25-34
 - National Debt scaled by GDP: ausmacrodata Current Account and ausmacrodata Real GDP
 - Distrust [percent responding negatively to the government]
@@ -44,11 +45,10 @@ Find repos of people that have done the hard work of data mining government webs
 	- https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/231VJS&version=2.0
 		- https://australianelectionstudy.org/interactive-charts/
 	
-
+### Higher Education
 - https://www.dese.gov.au/higher-education-statistics/student-data/selected-higher-education-statistics-time-series-data
 - https://www.dese.gov.au/higher-education-statistics/student-data/selected-higher-education-statistics-2013-student-data
 - Higher Education Students by Gender and Broad Field of Study, 1983-2000 ...
-
 
 
 ### References
@@ -59,3 +59,6 @@ https://www.fwc.gov.au/waltzing-matilda-and-the-sunshine-harvester-factory/histo
 
 #### Economic History
 https://rse.anu.edu.au/research/centre-economic-history/source-papers-economic-history
+### Distrust
+- https://dataverse.ada.edu.au/dataverse.xhtml?alias=australian-voter-study
+- data from each 3 year election cycle only
