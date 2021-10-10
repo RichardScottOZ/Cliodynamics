@@ -33,12 +33,12 @@ CC-By Attribution 4.0 International
 Find repos of people that have done the hard work of data mining government websites
 
 ### Need Data
-- Production Wage
-- Unskilled Wage
-- GDP per capital: ausmacrodata Real GDP and ausmacrodata Estimated Resident Population
-- Urbanization - World Bank: https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS?locations=AU
-- Percent of population aged 20-29: ausmacrodata employed 20-24 and ausmacrodata employed 25-34
-- National Debt scaled by GDP: ausmacrodata Current Account and ausmacrodata Real GDP
+- Production Wage - use Fitter Wage from FWC
+- Unskilled Wage - use Minimum Wage from FWC
+- GDP per capital: ausmacrodata Real GDP and ausmacrodata Estimated Resident Population - use 
+- Urbanization - World Bank: https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS?locations=AU - ABS census has this and can interpolate between for a good approximation
+- Percent of population aged 20-29: ausmacrodata employed 20-24 and ausmacrodata employed 25-34 - ABS has breakdowns of 20-24 and 25-29 so can add them
+- National Debt scaled by GDP: ausmacrodata Current Account and ausmacrodata Real GDP - see economic history
 - Distrust [percent responding negatively to the government]
 	- https://www.aph.gov.au/~/~/link.aspx?_id=1713CA0133C845D8B54945046F5C7B8B
 	- https://australianelectionstudy.org/wp-content/uploads/Trends-in-Australian-Political-Opinion-1987-2019.pdf
@@ -59,6 +59,7 @@ Find repos of people that have done the hard work of data mining government webs
 #### Economic History
 - https://github.com/MattCowgill/auseconhisthttps://rse.anu.edu.au/research/centre-economic-history/source-papers-economic-history
 - https://github.com/MattCowgill/auseconhist
+- https://rse.anu.edu.au/research/centre-economic-history/source-papers-economic-history
 
 ### Distrust
 - https://dataverse.ada.edu.au/dataverse.xhtml?alias=australian-voter-study
