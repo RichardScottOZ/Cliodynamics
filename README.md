@@ -22,6 +22,10 @@ CC-By Attribution 4.0 International
 ### USA Political Stress Indicator prediction [data up to 2011]
 ![Political Stress Indicator](https://github.com/RichardScottOZ/Cliodynamics/blob/main/Turchin_Korotayev_R/Political_Stress_indicator.png)
 
+## Australian Reseach
+### Australian Political Stress Indicator prediction [data up to 2011 - see notebook]
+![Political Stress Indicator](https://github.com/RichardScottOZ/Cliodynamics/blob/main/data/PSIAustralia.png)
+
 
 ## Australia
 ### Aim to replicate this from Australian Data Sources
