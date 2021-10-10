@@ -59,6 +59,7 @@ Find repos of people that have done the hard work of data mining government webs
 - https://www.measuringworth.com/datasets/auswages/auswagesources.php
 - https://melbourneinstitute.unimelb.edu.au/assets/documents/hilda-bibliography/other-publications/2013/Bray_Reflections_on_Evolution_of_Minimum_Wage.pdf
 - https://www.fwc.gov.au/waltzing-matilda-and-the-sunshine-harvester-factory/historical-material/australian-minimum-wage-since-1906
+- https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/rp1819/Quick_Guides/Earnings
 
 #### Economic History
 - https://github.com/MattCowgill/auseconhisthttps://rse.anu.edu.au/research/centre-economic-history/source-papers-economic-history
