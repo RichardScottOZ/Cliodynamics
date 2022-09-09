@@ -62,7 +62,8 @@ Find repos of people that have done the hard work of data mining government webs
 - https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/rp1819/Quick_Guides/Earnings
 
 #### Economic History
-- https://github.com/MattCowgill/auseconhisthttps://rse.anu.edu.au/research/centre-economic-history/source-papers-economic-history
+- https://github.com/MattCowgill/auseconhist
+- https://rse.anu.edu.au/research/centre-economic-history/source-papers-economic-history
 - https://github.com/MattCowgill/auseconhist
 - https://rse.anu.edu.au/research/centre-economic-history/source-papers-economic-history
 
